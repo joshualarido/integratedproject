@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .nav-item {
+        @apply text-sm font-redhat flex text-white
+        hover:bg-gray-600 hover:cursor-pointer
+        my-1 p-2 px-5
+        rounded-lg
+        transition-all duration-300
+    }
+    
+    .sidebar-icon {
+        @apply my-auto mr-3 text-lg
+    }
+
+    .content-container {
+        @apply h-max w-full ml-64 py-5 px-10 bg-gray-100
+    }
+
+    .content-heading-container {
+        
+    }
+
+    .content-headings {
+        @apply flex w-full justify-between mb-5
+    }
+
+    .content-heading {
+        @apply font-redhat text-sm text-gray-400 mt-2
+    }
+
+    .page-header {
+        @apply text-3xl font-redhat font-bold
+    }
+
+    .content-paragraph {
+        @apply text-lg font-redhat text-justify indent-12
+    }
+};
+
+.header-img {
+    max-width: 100%;
+    height: auto;
+}
