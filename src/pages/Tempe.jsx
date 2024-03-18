@@ -2,7 +2,7 @@ import moment from "moment";
 
 var date = moment().format("dddd, Do MMMM, YYYY");
 
-const Planning = () => {
+const Tempe = () => {
     return (
         <div className="">
             <div className="content-header">
@@ -13,7 +13,7 @@ const Planning = () => {
                 </div>
                 <div className="content-heading-container">
                     <div className="content-headings">
-                        <h3 className="content-heading">General / Planning</h3>
+                        <h3 className="content-heading">Projects / Tempeh Production</h3>
                         <h3 className="content-heading text-right">{date}</h3>
                     </div>
                 </div>
@@ -32,4 +32,4 @@ const Planning = () => {
     );
 };
 
-export default Planning;
+export default Tempe;
