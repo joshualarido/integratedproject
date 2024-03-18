@@ -18,11 +18,15 @@
     }
 
     .content-container {
-        @apply h-max w-full ml-64 py-5 px-10 bg-gray-100
+        @apply h-max w-full ml-64 bg-gray-100
+    }
+
+    .content-main {
+        @apply py-5 px-10
     }
 
     .content-heading-container {
-        
+        @apply flex
     }
 
     .content-headings {
@@ -40,9 +44,12 @@
     .content-paragraph {
         @apply text-lg font-redhat text-justify indent-12
     }
-};
 
-.header-img {
-    max-width: 100%;
-    height: auto;
-}
+    .image-container {
+        @apply bg-gray-400 h-48
+    }
+
+    .overlay {
+        @apply w-full h-48 bg-black top-[1] relative opacity-50
+    }
+};
