@@ -21,25 +21,8 @@
         @apply h-max w-full ml-64 bg-gray-100
     }
 
-    .content-main {
+    .main {
         @apply pb-5 px-20 -my-6
-    }
-
-    .content-heading-container {
-        @apply flex w-full top-0 left-0 absolute 
-    }
-
-    .content-headings {
-        @apply flex w-full ml-64 py-5 px-10 justify-between
-    }
-
-    .content-heading {
-        @apply font-redhat text-sm text-white mt-2
-    }
-
-    .page-header {
-        @apply text-3xl font-redhat font-bold bg-white px-4 py-3 
-               shadow-md m-auto w-max text-center relative -top-8
     }
 
     .content-paragraph {
@@ -51,19 +34,13 @@
                
     }
 
-    .image-container {
-        @apply h-40
-    }
-
-    .overlay {
-        @apply w-full h-40 bg-black top-0 left-0 absolute opacity-50 z-0
-    }
-
     .credit-text {
         @apply text-gray-400 my-1 p-3 px-6 pt-0 text-xs font-redhat
     }
 
-    .header-img {
-        @apply top-0 left-0  w-full h-full object-cover object-bottom
+    /* HEADER */
+
+    .header-small-heading {
+        @apply text-white font-redhat text-sm
     }
 };

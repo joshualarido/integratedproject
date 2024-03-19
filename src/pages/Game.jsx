@@ -5,21 +5,22 @@ var date = moment().format("dddd, Do MMMM, YYYY");
 const Game = () => {
     return (
         <div className="">
-            <div className="content-header">
-                <div className="image-container">
-                    <img src="./src/assets/hotel-yamato.jpg" alt="hotel-yamato.jpg"
-                            className="header-img"/>
-                    <div className="overlay"></div>
-                </div>
-                <div className="content-heading-container">
-                    <div className="content-headings">
-                        <h3 className="content-heading">Projects / Construct 2 Game</h3>
-                        <h3 className="content-heading text-right">{date}</h3>
+            <div className="header h-40 bg-gray-600">
+                <div className="header-text py-7 px-10 z-10 relative">
+                    <div className="header-small-headings flex justify-between mb-4">
+                        <h3 className="header-small-heading">General / Home</h3>
+                        <h3 className="header-small-heading">{date}</h3>
                     </div>
                 </div>
-                <h1 className="page-header">Yamato Hotel Incident: The Game</h1>
+                <div className="header-bg">
+                    <img src="./src/assets/hotel-yamato.jpg" alt="yamato-hotel" 
+                         className="w-full h-40 object-cover absolute top-0 left-0 z-0 object-bottom"/>
+                    <div className="overlay w-full h-40 bg-black opacity-50 absolute top-0 left-0"></div>
+                </div>
+                <h1 className="project-title w-max font-redhat text-black text-3xl font-bold text-center
+                               relative z-10 mt-10 bg-white py-3 px-5 mx-auto shadow-lg">Yamato Hotel Incident: The Game</h1>
             </div>
-            <div className="content-main">
+            <div className="main m-0 py-5 px-20">
                 <div>
                     <div className="flex place-content-center my-8">
                         <div className="p-3 md h-[480px] w-[854px] bg-white shadow-lg"></div>

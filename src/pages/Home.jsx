@@ -5,21 +5,24 @@ var date = moment().format("dddd, Do MMMM, YYYY");
 const Home = () => {
     return (
         <div className="">
-            <div className="content-header">
-                <div className="image-container">
-                    <img src="./src/assets/hotel-yamato.jpg" alt="hotel-yamato.jpg"
-                            className="header-img"/>
-                    <div className="overlay"></div>
-                </div>
-                <div className="content-heading-container">
-                    <div className="content-headings">
-                        <h3 className="content-heading">General / Home</h3>
-                        <h3 className="content-heading text-right">{date}</h3>
+            <div className="header h-52 bg-gray-600">
+                <div className="header-text py-7 px-10 z-10 relative">
+                    <div className="header-small-headings flex justify-between mb-4">
+                        <h3 className="header-small-heading">General / Home</h3>
+                        <h3 className="header-small-heading">{date}</h3>
+                    </div>
+                    <div className="header-group-title">
+                        <h2 className="w-full font-redhat text-white text-2xl text-center mb-2">Hi, we are</h2>
+                        <h1 className="w-full font-redhat text-white text-5xl font-bold text-center mb-3">The Throwaways</h1>
                     </div>
                 </div>
-                <h1 className="page-header">Yamato Hotel Incident: The Game</h1>
+                <div className="header-bg">
+                    <img src="./src/assets/hotel-yamato.jpg" alt="yamato-hotel" 
+                         className="w-full h-52 object-cover absolute top-0 left-0 z-0 object-bottom"/>
+                    <div className="overlay w-full h-52 bg-black opacity-50 absolute top-0 left-0"></div>
+                </div>
             </div>
-            <div className="content-main">
+            <div className="main m-0 py-5 px-20">
                 <div>
                     <div className="flex place-content-center my-8">
                         <div className="p-3 md h-[480px] w-[854px] bg-white shadow-lg"></div>

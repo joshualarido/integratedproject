@@ -65,7 +65,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className='flex'>
         <SideBar></SideBar>
         <div className='content-container'>
-          <div className="bg-slate-400"></div>
           <RouterProvider router={router} />
         </div>
     </div>
