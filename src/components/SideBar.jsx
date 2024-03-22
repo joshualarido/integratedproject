@@ -12,31 +12,34 @@ import { Link } from "react-router-dom";
 
 const SideBar = () => {
     return (
-        <div className="fixed top-0 left-0 h-screen w-64 flex-col bg-gray-700 p-4
+        <div className="navbar fixed top-0 left-0 h-full w-64 flex flex-col bg-gray-700 p-4 py-6
                         shadow-2xl float-left z-10 justify-between">
-            <div>
-                <div className="my-2 mb-4 px-4">
-                    <h1 className="text-xl text-left text-white
-                                font-redhat font-extrabold mb-1">Integrated Project</h1>
-                    <h2 className="text-sm text-gray-300 font-redhat">Group 3, 12 St. Caecilia</h2>
-                </div>
-                <div className="mb-6">
-                    <a href="/" className="nav-item"><SideBarIcon icon={<GoHome />} />Home</a>
-                    <a href="/planning" className="nav-item"><SideBarIcon icon={<CiCalendar />} />Planning</a>
-                </div>
-                <div>
-                    <h3 className="my-2 mb-2 px-4 font-redhat text-gray-400 text-xs">Projects</h3>
-                    <a href="/game" className="nav-item"><SideBarIcon icon={<IoGameControllerOutline  />} />Construct 2 Game</a>
-                    <a href="/tempe" className="nav-item"><SideBarIcon icon={<AiOutlineExperiment />} />Tempeh Production</a>
-                    <a href="/dance" className="nav-item"><SideBarIcon icon={<MdMusicVideo  />} />Dance Music Video</a>
-                    <a href="/religion" className="nav-item"><SideBarIcon icon={<PiCross />} />Religious Ceremony</a>
-                    <a href="/art" className="nav-item"><SideBarIcon icon={<LiaPaintBrushSolid />} />Art Mosaic</a>
-                    <a href="/cny" className="nav-item"><SideBarIcon icon={<PiTranslate />} />CNY Report</a>
+            <div className="nav-top">
+                <h1 className="nav-title text-white font-bold font-redhat text-xl
+                               px-3">Integrated Project</h1>
+                <h2 className="nav-subtitle text-gray-400 font-redhat text-sm
+                               pt-2 pb-1 px-3">12 St. Caecilia, Group 3</h2>
+                <div className="nav-links">
+                    <div className="general-links">
+                        <a href="/" className="nav-item"><SideBarIcon icon={<GoHome />}/> Home</a>
+                    </div>
+                    <div className="project-links">
+                        <h2 className="nav-subtitle text-gray-400 font-redhat text-sm
+                               pt-2 pb-1 px-3">Projects</h2>
+                        <a href="/game" className="nav-item"><SideBarIcon icon={<IoGameControllerOutline />}/> Construct 2 Game</a>
+                        <a href="/tempe" className="nav-item"><SideBarIcon icon={<AiOutlineExperiment />}/> Tempeh Production</a>
+                        <a href="/dance" className="nav-item"><SideBarIcon icon={<MdMusicVideo />}/> Dance Music Video</a>
+                        <a href="/religion" className="nav-item"><SideBarIcon icon={<PiCross />}/> Religious Ceremony</a>
+                        <a href="/art" className="nav-item"><SideBarIcon icon={<LiaPaintBrushSolid />}/> Art Mosaic</a>
+                        <a href="/cny" className="nav-item"><SideBarIcon icon={<PiTranslate />}/> CNY Report</a>
+                    </div>
                 </div>
             </div>
-            <div className="mt-8">
-                <a href="/" className="nav-item"><SideBarIcon icon={<MdOutlineCreditCard />} />Credits</a>
-                <p className="credit-text">Joshua Larido © 2024</p>
+            <div className="nav-bottom">
+                <div className="credit-links">
+                    <h3 className="credit-subtitle text-gray-500 font-redhat text-sm
+                               px-3 pt-1">Joshua Larido © 2024</h3>
+                </div>
             </div>
         </div>
     );

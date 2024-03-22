@@ -22,7 +22,7 @@
     }
 
     .main {
-        @apply pb-5 px-20 -my-6
+        @apply m-0 py-12 px-20 pb-8 -mt-3
     }
 
     .content-paragraph {
@@ -34,13 +34,95 @@
                
     }
 
-    .credit-text {
-        @apply text-gray-400 my-1 p-3 px-6 pt-0 text-xs font-redhat
+    /* HEADER */
+
+    .header {
+        @apply h-52 bg-gray-600
     }
 
-    /* HEADER */
+    .header-text {
+        @apply py-7 px-10 z-10 relative
+    }
+
+    .header-small-headings {
+        @apply flex justify-between mb-4
+    }
 
     .header-small-heading {
         @apply text-white font-redhat text-sm
     }
+
+    .header-img {
+        @apply w-full h-52 object-cover absolute top-0 left-0 z-0 object-bottom pl-64
+    }
+
+    .overlay {
+        @apply w-full h-52 bg-black opacity-50 absolute top-0 left-0
+    }
+
+    /* PROJECT */
+
+    .project-title {
+        @apply w-max font-redhat text-black text-3xl font-bold text-center
+        relative z-10 mt-10 bg-white py-3 px-5 mx-auto shadow-lg
+    }
+
+    section {
+        @apply mb-5
+    }
+
+    .member {
+        @apply w-1/6 mx-2 shadow-lg card
+    }
+
+    .member-text {
+        @apply bg-white p-2 font-redhat h-max
+    }
+
+    .member-name {
+        @apply text-center text-base font-bold font-redhat
+    }
+
+    .member-info {
+        @apply text-center text-sm
+    }
+
+    .member-image {
+        @apply object-cover h-52 w-full
+    }
+
+    /* DOCUMENTS */
+
+    .document {
+        @apply w-4/12 inline-flex shadow-lg m-2 card
+    }
+
+    .document-icon {
+        @apply w-20 h-20 px-4 py-4 bg-white self-center object-cover
+    }
+
+    .document-text {
+        @apply self-center bg-white h-20 py-4 px-5 w-9/12 border-l
+    }
+
+    .document-name {
+        @apply font-redhat font-bold
+    }
+
+    .document-created {
+        @apply font-redhat text-sm
+    }
+
+    .card {
+        @apply hover:-translate-y-1 transition-all duration-300 cursor-pointer
+    }
+
+    .mosaic {
+        @apply card
+    }
+
+    .video {
+        @apply w-full
+    }
+
 };
