@@ -21,17 +21,17 @@ const SideBar = () => {
                                pt-2 pb-1 px-3">12 St. Caecilia, Group 3</h2>
                 <div className="nav-links">
                     <div className="general-links">
-                        <a href="/" className="nav-item"><SideBarIcon icon={<GoHome />}/> Home</a>
+                        <a href="/integratedproject/" className="nav-item"><SideBarIcon icon={<GoHome />}/> Home</a>
                     </div>
                     <div className="project-links">
                         <h2 className="nav-subtitle text-gray-400 font-redhat text-sm
                                pt-2 pb-1 px-3">Projects</h2>
-                        <a href="/game" className="nav-item"><SideBarIcon icon={<IoGameControllerOutline />}/> Construct 2 Game</a>
-                        <a href="/tempe" className="nav-item"><SideBarIcon icon={<AiOutlineExperiment />}/> Tempeh Production</a>
-                        <a href="/dance" className="nav-item"><SideBarIcon icon={<MdMusicVideo />}/> Dance Music Video</a>
-                        <a href="/religion" className="nav-item"><SideBarIcon icon={<PiCross />}/> Religious Ceremony</a>
-                        <a href="/art" className="nav-item"><SideBarIcon icon={<LiaPaintBrushSolid />}/> Art Mosaic</a>
-                        <a href="/cny" className="nav-item"><SideBarIcon icon={<PiTranslate />}/> CNY Report</a>
+                        <a href="/integratedproject/game" className="nav-item"><SideBarIcon icon={<IoGameControllerOutline />}/> Construct 2 Game</a>
+                        <a href="/integratedproject/tempe" className="nav-item"><SideBarIcon icon={<AiOutlineExperiment />}/> Tempeh Production</a>
+                        <a href="/integratedproject/dance" className="nav-item"><SideBarIcon icon={<MdMusicVideo />}/> Dance Music Video</a>
+                        <a href="/integratedproject/religion" className="nav-item"><SideBarIcon icon={<PiCross />}/> Religious Ceremony</a>
+                        <a href="/integratedproject/art" className="nav-item"><SideBarIcon icon={<LiaPaintBrushSolid />}/> Art Mosaic</a>
+                        <a href="/integratedproject/cny" className="nav-item"><SideBarIcon icon={<PiTranslate />}/> CNY Report</a>
                     </div>
                 </div>
             </div>

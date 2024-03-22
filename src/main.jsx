@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // COMPONENTS
@@ -19,44 +20,36 @@ import './index.css';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/integratedproject/',
     element: <Home />,
-    errorElement: <div>404</div>,
   },
   {
-    path: '/planning',
+    path: '/integratedproject/planning',
     element: <Planning />,
-    errorElement: <div>404</div>,
   },
   {
-    path: '/game',
+    path: '/integratedproject/game',
     element: <Game />,
-    errorElement: <div>404</div>,
   },
   {
-    path: '/tempe',
+    path: '/integratedproject/tempe',
     element: <Tempe />,
-    errorElement: <div>404</div>,
   },
   {
-    path: '/dance',
+    path: '/integratedproject/dance',
     element: <Dance />,
-    errorElement: <div>404</div>,
   },
   {
-    path: '/religion',
+    path: '/integratedproject/religion',
     element: <Religion />,
-    errorElement: <div>404</div>,
   },
   {
-    path: '/art',
+    path: '/integratedproject/art',
     element: <Art />,
-    errorElement: <div>404</div>,
   },
   {
-    path: '/cny',
+    path: '/integratedproject/cny',
     element: <Cny />,
-    errorElement: <div>404</div>,
   },
 ]);
 
@@ -65,7 +58,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className='flex'>
         <SideBar></SideBar>
         <div className='content-container'>
-          <RouterProvider router={router} />
+          <RouterProvider router={router}></RouterProvider>
         </div>
     </div>
   </React.StrictMode>,
