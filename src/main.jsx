@@ -14,7 +14,6 @@ import Dance from './pages/Dance.jsx';
 import Religion from './pages/Religion.jsx';
 import Art from './pages/Art.jsx';
 import Cny from './pages/Cny.jsx';
-import App from './App.jsx';
 
 import './index.css';
 
@@ -68,7 +67,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <div className='content-container'>
           <RouterProvider router={router} />
         </div>
-        <App></App>
     </div>
   </React.StrictMode>,
 )
