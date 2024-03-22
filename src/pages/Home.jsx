@@ -17,7 +17,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="header-bg">
-                    <img src='https://joshualarido.github.io/integratedproject/assets/images/group-picture.jpg' alt="yamato-hotel" 
+                    <img src="./src/assets/group-picture.jpg" alt="yamato-hotel" 
                          className="header-img h-52 object-center"/>
                     <div className="overlay h-52"></div>
                 </div>
