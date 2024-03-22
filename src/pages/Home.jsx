@@ -25,7 +25,7 @@ const Home = () => {
             <div className="main m-0">
                 <div>
                     <section className="intro flex mb-10">
-                        <img src="./src/assets/group-picture.jpg" alt="group-picture"
+                        <img src="assets/group-picture.jpg" alt="group-picture"
                              className="w-1/2 shadow-xl mr-10 object-cover"/>
                         <p className="content-paragraph w-1/2">The Grade 12 Integrated Project held in March 2024 combines multiple subjects into practical group projects. Divided into smaller tasks, the main project involves creating tempeh and writing a report, integrating Biology, Chemistry, Physics, Math, and Bahasa Indonesia. Another task entails coding a game with Construct 2, blending ITP, History, CME, and English. Additional projects include religious ceremonies, dance choreography, group portfolios, and a Chinese New Year report. These diverse activities culminate in uploading recordings onto a self-coded website, showcasing our collaborative efforts across various subjects.
 </p>
@@ -34,7 +34,7 @@ const Home = () => {
                         <h2 className="content-paragraph-heading mb-2">Our Members</h2>
                         <div className="members-list w-full flex">
                             <div className="member">
-                                <img src="./src/assets/profile/carol-profile.jpg" alt="pfp"
+                                <img src="assets/profile/carol-profile.jpg" alt="pfp"
                                      className="member-image"/>
                                 <div className="member-text">
                                     <h2 className="member-name">Carolynn E. V. Tapilatu</h2>
@@ -42,7 +42,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="member">
-                                <img src="./src/assets/profile/efrel-profile.jpg" alt="pfp"
+                                <img src="assets/profile/efrel-profile.jpg" alt="pfp"
                                      className="member-image"/>
                                 <div className="member-text">
                                     <h2 className="member-name">Efarrell Leif <br></br> P. S.</h2>
@@ -50,7 +50,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="member">
-                                <img src="./src/assets/profile/iren-profile.jpg" alt="pfp"
+                                <img src="assets/profile/iren-profile.jpg" alt="pfp"
                                      className="member-image"/>
                                 <div className="member-text">
                                     <h2 className="member-name">Iren <br></br> Vionika</h2>
@@ -58,7 +58,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="member">
-                                <img src="./src/assets/profile/josh-profile.jpg" alt="pfp"
+                                <img src="assets/profile/josh-profile.jpg" alt="pfp"
                                      className="member-image"/>
                                 <div className="member-text">
                                     <h2 className="member-name">Joshua A. Larido</h2>
@@ -66,7 +66,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="member">
-                                <img src="./src/assets/profile/lg-profile.jpg" alt="pfp"
+                                <img src="assets/profile/lg-profile.jpg" alt="pfp"
                                      className="member-image"/>
                                 <div className="member-text">
                                     <h2 className="member-name">Lizette Gretchen</h2>
@@ -74,7 +74,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="member">
-                                <img src="./src/assets/profile/michael-profile.jpg" alt="pfp"
+                                <img src="assets/profile/michael-profile.jpg" alt="pfp"
                                      className="member-image"/>
                                 <div className="member-text">
                                     <h2 className="member-name">Michael <br></br> Gianni</h2>
@@ -88,7 +88,7 @@ const Home = () => {
                              Documents</h2>
                         <div className="document-list w-full flex">
                             <a href="https://docs.google.com/spreadsheets/d/10KTr8WRkJmgYMgyfanavtrlPBQ-qgYGU6P53HSrAEhE/edit#gid=1721329833" target="_blank" className="document">
-                                <img src="./src/assets/excel.png" alt="docs"
+                                <img src="assets/excel.png" alt="docs"
                                      className="document-icon"/>
                                 <div className="document-text">
                                     <h2 className="document-name">Task Management</h2>
@@ -96,7 +96,7 @@ const Home = () => {
                                 </div>
                             </a>
                             <a href="https://docs.google.com/document/d/1ODeuVCD-SVdUlDh_lWwFohxmHULxqkQKiytoZchcYW4/edit#heading=h.jd1co04yck39" target="_blank" className="document">
-                                <img src="./src/assets/docs.png" alt="docs"
+                                <img src="assets/docs.png" alt="docs"
                                      className="document-icon"/>
                                 <div className="document-text">
                                     <h2 className="document-name">Project Docs</h2>
@@ -104,7 +104,7 @@ const Home = () => {
                                 </div>
                             </a>
                             <a href="https://drive.google.com/drive/u/1/folders/1Rl2uS1WRFAE73ba8WLnJzOgLo_sLDTrQ" target="_blank" className="document">
-                                <img src="./src/assets/drive.png" alt="docs"
+                                <img src="assets/drive.png" alt="docs"
                                      className="document-icon"/>
                                 <div className="document-text">
                                     <h2 className="document-name">Project Drive</h2>

@@ -13,7 +13,7 @@ const Religion = () => {
                     </div>
                 </div>
                 <div className="header-bg">
-                    <img src="./src/assets/religion.jpg" alt="yamato-hotel" 
+                    <img src="assets/religion.jpg" alt="yamato-hotel" 
                          className="header-img h-40 object-center"/>
                     <div className="overlay h-40"></div>
                 </div>

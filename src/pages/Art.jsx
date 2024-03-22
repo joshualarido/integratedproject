@@ -13,7 +13,7 @@ const Tempe = () => {
                     </div>
                 </div>
                 <div className="header-bg">
-                    <img src="./src/assets/mosaic.jpeg" alt="yamato-hotel" 
+                    <img src="assets/mosaic.jpeg" alt="yamato-hotel" 
                          className="header-img h-40 object-center"/>
                     <div className="overlay h-40"></div>
                 </div>
@@ -23,21 +23,21 @@ const Tempe = () => {
                 <div className="mt-5">
                     <div className="mosaic-container w-full flex mb-6">
                         <div className="mosaic w-1/3 mx-3 shadow-lg">
-                            <img src="../src/assets/mosaic/carol.jpg" alt="mosaic" />
+                            <img src=".assets/mosaic/carol.jpg" alt="mosaic" />
                             <div className="mosaic-text p-3 text-center bg-white">
                                 <h2 className="mosaic-name font-redhat font-bold text-lg">Carol E. V. Tapilatu</h2>
                                 <h3 className="mosaic-info font-redhat text-base">12 St. Caecilia / 03</h3>
                             </div>
                         </div>
                         <div className="mosaic w-1/3 mx-3 shadow-lg">
-                            <img src="../src/assets/mosaic/efrel.jpg" alt="mosaic" />
+                            <img src=".assets/mosaic/efrel.jpg" alt="mosaic" />
                             <div className="mosaic-text p-3 text-center bg-white">
                                 <h2 className="mosaic-name font-redhat font-bold text-lg">Efarrell Leif P. S.</h2>
                                 <h3 className="mosaic-info font-redhat text-base">12 St. Caecilia / 05</h3>
                             </div>
                         </div>
                         <div className="mosaic w-1/3 mx-3 shadow-lg">
-                            <img src="../src/assets/mosaic/irenn.jpg" alt="mosaic" />
+                            <img src=".assets/mosaic/irenn.jpg" alt="mosaic" />
                             <div className="mosaic-text p-3 text-center bg-white">
                                 <h2 className="mosaic-name font-redhat font-bold text-lg">Iren Vionika</h2>
                                 <h3 className="mosaic-info font-redhat text-base">12 St. Caecilia / 09</h3>
@@ -46,21 +46,21 @@ const Tempe = () => {
                     </div>
                     <div className="mosaic-container w-full flex mb-6">
                         <div className="mosaic w-1/3 mx-3 shadow-lg">
-                            <img src="../src/assets/mosaic/josh.jpg" alt="mosaic" />
+                            <img src=".assets/mosaic/josh.jpg" alt="mosaic" />
                             <div className="mosaic-text p-3 text-center bg-white">
                                 <h2 className="mosaic-name font-redhat font-bold text-lg">Joshua A. Larido</h2>
                                 <h3 className="mosaic-info font-redhat text-base">12 St. Caecilia / 10</h3>
                             </div>
                         </div>
                         <div className="mosaic w-1/3 mx-3 shadow-lg">
-                            <img src="../src/assets/mosaic/lg.jpg" alt="mosaic" />
+                            <img src=".assets/mosaic/lg.jpg" alt="mosaic" />
                             <div className="mosaic-text p-3 text-center bg-white">
                                 <h2 className="mosaic-name font-redhat font-bold text-lg">Lizette Gretchen</h2>
                                 <h3 className="mosaic-info font-redhat text-base">12 St. Caecilia / 12</h3>
                             </div>
                         </div>
                         <div className="mosaic w-1/3 mx-3 shadow-lg">
-                            <img src="../src/assets/mosaic/michael.jpg" alt="mosaic" />
+                            <img src=".assets/mosaic/michael.jpg" alt="mosaic" />
                             <div className="mosaic-text p-3 text-center bg-white">
                                 <h2 className="mosaic-name font-redhat font-bold text-lg">Michael Gianni</h2>
                                 <h3 className="mosaic-info font-redhat text-base">12 St. Caecilia / 16</h3>

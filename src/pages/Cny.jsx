@@ -13,7 +13,7 @@ const Game = () => {
                     </div>
                 </div>
                 <div className="header-bg">
-                    <img src="./src/assets/cny.jpg" alt="yamato-hotel" 
+                    <img src="assets/cny.jpg" alt="yamato-hotel" 
                          className="header-img h-40"/>
                     <div className="overlay h-40"></div>
                 </div>

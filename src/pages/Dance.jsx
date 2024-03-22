@@ -13,7 +13,7 @@ const Dance = () => {
                     </div>
                 </div>
                 <div className="header-bg">
-                    <img src="./src/assets/september.jpg" alt="yamato-hotel" 
+                    <img src="assets/september.jpg" alt="yamato-hotel" 
                          className="header-img h-40 object-center"/>
                     <div className="overlay h-40"></div>
                 </div>

@@ -7,7 +7,7 @@ const Planning = () => {
         <div className="">
             <div className="content-header">
                 <div className="image-container">
-                    <img src="./src/assets/hotel-yamato.jpg" alt="hotel-yamato.jpg"
+                    <img src="assets/hotel-yamato.jpg" alt="hotel-yamato.jpg"
                             className="header-img"/>
                     <div className="overlay"></div>
                 </div>

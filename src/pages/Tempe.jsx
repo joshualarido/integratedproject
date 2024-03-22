@@ -13,7 +13,7 @@ const Tempe = () => {
                     </div>
                 </div>
                 <div className="header-bg">
-                    <img src="./src/assets/tempe.jpg" alt="yamato-hotel" 
+                    <img src="assets/tempe.jpg" alt="yamato-hotel" 
                          className="header-img h-40 object-center"/>
                     <div className="overlay h-40"></div>
                 </div>
@@ -23,7 +23,7 @@ const Tempe = () => {
                 <div className="report-container bg-white w-fit mx-auto shadow-lg card">
                     <a href="https://docs.google.com/document/d/1Ex9575ImGE3HrpNVnzL03fTy86ulagSVtkO_u_USlXw/edit?usp=sharing"
                     className="" target="_blank">
-                        <img src="./src/assets/tempe-report.png" alt=""
+                        <img src="assets/tempe-report.png" alt=""
                             className=""/>
                     </a>
                 </div>
