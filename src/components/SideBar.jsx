@@ -16,16 +16,16 @@ const SideBar = () => {
                         shadow-2xl float-left z-10 justify-between">
             <div className="nav-top">
                 <h1 className="nav-title text-white font-bold font-redhat text-xl
-                               px-3">Integrated Project</h1>
+                               px-3 text-left">Integrated Project</h1>
                 <h2 className="nav-subtitle text-gray-400 font-redhat text-sm
-                               pt-2 pb-1 px-3">12 St. Caecilia, Group 3</h2>
+                               pt-2 pb-1 px-3 text-left">12 St. Caecilia, Group 3</h2>
                 <div className="nav-links">
                     <div className="general-links">
                         <a href="/integratedproject/" className="nav-item"><SideBarIcon icon={<GoHome />}/> Home</a>
                     </div>
                     <div className="project-links">
                         <h2 className="nav-subtitle text-gray-400 font-redhat text-sm
-                               pt-2 pb-1 px-3">Projects</h2>
+                               pt-2 pb-1 px-3 text-left">Projects</h2>
                         <a href="/integratedproject/game" className="nav-item"><SideBarIcon icon={<IoGameControllerOutline />}/> Construct 2 Game</a>
                         <a href="/integratedproject/tempe" className="nav-item"><SideBarIcon icon={<AiOutlineExperiment />}/> Tempeh Production</a>
                         <a href="/integratedproject/dance" className="nav-item"><SideBarIcon icon={<MdMusicVideo />}/> Dance Music Video</a>
@@ -38,7 +38,7 @@ const SideBar = () => {
             <div className="nav-bottom">
                 <div className="credit-links">
                     <h3 className="credit-subtitle text-gray-500 font-redhat text-sm
-                               px-3 pt-1">Joshua Larido © 2024</h3>
+                               px-3 pt-1 text-left">Joshua Larido © 2024</h3>
                 </div>
             </div>
         </div>
