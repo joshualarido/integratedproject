@@ -1,12 +1,13 @@
-// // COMPONENTS
-// import SideBar from "./components/SideBar";
+// COMPONENTS
+import SideBar from "./components/SideBar";
 
-// // PAGES
-// import Home from "./pages/Home";
+// PAGES
+import Home from "./pages/Home";
 
-// export default function App() {
-//   return (
-//     <div className="">
-//     </div>
-//   );
-// }
+export default function App() {
+  return (
+    <div className="">
+        TEST
+    </div>
+  );
+}
